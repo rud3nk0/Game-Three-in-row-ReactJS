@@ -1,0 +1,140 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-image: url('./images/small_sky.jpg');
+  background-repeat: no-repeat;
+  /* background-size: cover; */
+ 
+} 
+
+  @import url('https://fonts.googleapis.com/css2?family=Bellefair&family=Caramel&family=Cookie&family=Kaushan+Script&family=Lilita+One&family=Montserrat:ital,wght@0,400;0,700;1,300&family=Open+Sans:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Oswald&display=swap');
+
+.App {
+  text-align: center;
+}
+/* Styles for the Header */
+.Header {
+  width: 90%;
+  margin: 0 auto 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+}
+h1, h2 {
+  color: white;
+  font-family: 'Lilita One',serif;
+  font-weight: bolder;
+  }
+.Score {
+  display: flex;
+  justify-content: center;
+  width: 20%;  
+  background-color: rgb(0, 0, 0, 0.2);
+  color: white;
+}
+.ScoreWindow {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center; 
+}
+
+.RecordWindow {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center; 
+}
+
+/* Styles for the Content */
+
+.Content {
+  width: 90%;
+  margin: 0 auto;
+  height: 606px;
+  
+  display: flex;
+}
+
+.Slidebar {
+  width: 30%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.2);
+  
+}
+
+.Main {
+  width: 620px;
+  height: 605px;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap; 
+  background-color: rgb(0, 0, 0, 0.2);
+}
+
+
+/* Styles for the Game Elements */
+
+.blue {
+  width: 74px;
+  height: 74px;
+  background-size: cover;
+  background-image: url(/src/images/blue.png);
+  background-position: center;
+  background-repeat: no-repeat; 
+  background-color: rgb(5, 49, 49);
+  border: 1px solid white;
+ 
+}
+.red {
+  width: 74px;
+  height: 74px;
+  background-size: cover;
+  background-image: url(/src/images/red.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: rgb(5, 49, 49);
+  border: 1px solid white;
+  
+}
+.yellow {
+  width: 74px;
+  height: 74px;
+  background-size: cover;
+  background-image: url(/src/images/yellow.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: rgb(5, 49, 49);
+  border: 1px solid white;
+ 
+}
+.white {
+  width: 74px;
+  height: 74px;
+  background-size: cover;
+  background-image: url(/src/images/white.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: rgb(5, 49, 49);
+  border: 1px solid white;
+ 
+}
+.green {
+  width: 74px;
+  height: 74px;
+  background-size: cover;
+  background-image: url(/src/images/green.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: rgb(5, 49, 49);
+  border: 1px solid white;
+  
+}
+
+
+.footer_text{
+  margin-top: 200px;
+}
